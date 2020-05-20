@@ -57,3 +57,7 @@ a:hover {
 button:hover {
     background-color: #DD9DA1;
 }
+
+img {
+    height: 200px;
+}
