@@ -1,9 +1,10 @@
 body {
-    background-color: pink;
+    background-color:#F5F5F5;
+    color: #40464C;
 }
 
 h1 {
-    background-color: aqua;
+    background-color: #93A8AC;
     text-align: center;
     padding: 10px;
     font-size: 24px;
@@ -11,11 +12,12 @@ h1 {
 }
 
 button {
-    background-color: aqua;
+    background-color: #93A8AC;
     border-radius: 5px;
     padding: 10px;
     margin: 20px;
     font-size: 15px;
+    color: #40464C;
 }
 
 input {
@@ -37,9 +39,21 @@ p {
 }
 
 a {
-    background-color: aqua;
-    padding: 5px;
+    background-color: #93A8AC;
+    padding: 7px;
     text-decoration: none;
-    color: black;
+    color: #40464C;
     border-radius: 5px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #DD9DA1;
+}
+
+button:hover {
+    background-color: #DD9DA1;
 }
