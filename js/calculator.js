@@ -5,8 +5,8 @@ $('#btnCalculate').click( () => {
 
     let numA = $('#numInput1').val()
     let numB = $('#numInput2').val()
-    numA = Number(numA)
-    numB = Number(numB)
+    let numA = Number(numA)
+    let numB = Number(numB)
 
     if ($('#radAdd').prop('checked')) {
         result = numA + numB
