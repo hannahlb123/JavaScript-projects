@@ -25,11 +25,6 @@ input {
     border-radius: 5px;
 }
 
-input[type='radio'] {
-    padding: 50px;
-    background-color: aquamarine;
-}
-
 label {
     font-size: 18px;
 }

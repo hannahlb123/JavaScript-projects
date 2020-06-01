@@ -1,6 +1,5 @@
-console.log('Ello script starting...')
-
 //'ello 'ello 'ello
+console.log('Ello script starting...')
 
 $('#btnSay').click( () => {
     let reps = $('#numOut').val()
