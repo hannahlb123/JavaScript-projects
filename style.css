@@ -21,7 +21,7 @@ button {
 }
 
 input {
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
 }
 
@@ -34,20 +34,35 @@ p {
 }
 
 a {
-    background-color: #93A8AC;
-    padding: 7px;
+    font-size: 14px;
     text-decoration: none;
     color: #40464C;
-    border-radius: 5px;
-    margin-right: 8px;
+    margin: 3px;
+    padding: 7px 7px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255,255,255,0.3),
+                -2px -2px 12px rgba(255,255,255,0.2),
+                inset 2px 2px 4px rgba(255,255,255,0.1),
+                2px 2px 8px rgba(0,0,0,0.2);
+}
+
+a:hover {
+    transition: ease-in 10s;
+    box-shadow: inset -2px -2px 8px rgba(255,255,255,1),
+                inset -2px -2px 12px rgba(255,255,255,0.5),
+                inset 2px 2px 4px rgba(255,255,255,0.1),
+                inset 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+a:hover span {
+    transform: scale(0.96);
+    display: inline-block;
 }
 
 nav {
     margin-top: 20px;
-}
-
-a:hover {
-    background-color: #DD9DA1;
 }
 
 button:hover {

@@ -2,28 +2,43 @@
 <html>
     <head>
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-        <script src="../js/boo.js" defer></script>
+        <script src="../js/shopping-list.js" defer></script>
         <link rel="stylesheet" href="../style.css">
     </head>
+
     <body>
         <h1>Franken-site</h1>
 
-        <nav>
+        <nav>   
             <a href="../index.htm"><span>Home</span></a>
             <a href="calculator.htm"><span>Calculator</span></a>
             <a href="is-it-more-than-546.htm"><span>Is it more than 546</span></a>
             <a href="options.htm"><span>Options</span></a>
-            <a href="#"><span>Boo</span></a>
+            <a href="boo.htm"><span>Boo</span></a>
             <a href="mad-libs.htm"><span>Mad-Libs</span></a>
             <a href="ello-ello-ello.htm"><span>'Ello 'Ello 'Ello</span></a>
             <a href="hailstone-numbers.htm"><span>Hailstone Numbers</span></a>
             <a href="fibonacci.htm"><span>Fibonacci Sequence</span></a>
-            <a href="shopping-list.htm"><span>Shopping List</span></a>
+            <a href="#"><span>Shopping List</span></a>
         </nav>
+        
+        <h3>Shopping list</h3>
 
-        <h3>Boo</h3>
+        <label>
+            Add item:
+            <input id="txtAddItem" type="text">    
+        </label>
 
-        <button id="btnClick">Click Me!</button>
-        <p id="txtBoo"></p>
+        <button id="btnAddItem">Add</button> 
+
+        <label>
+            Remove item (enter the number of the item you would like to remove)
+            <input id="numRemove" type="number">
+        </label>
+
+        <button id="btnRemove">Remove</button>
+
+        <ol id="lstShoppingList"></ol>
+
     </body>
 </html>
