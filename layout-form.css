@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid:".   h   ." 70px
+         "n   n   n" 50px
+         "m   m   m" 5fr
+         /1fr 4fr 1fr;
+}
+
+header{grid-area: h;}
+nav{grid-area: n;}
+main{grid-area: m;}
+
+input {
+    display: inline-block;
+}
+
+main {
+    display: grid;
+    grid-gap: 30px;
+    grid:"H3    H3   H3" 35px
+         "AL   AB   ." 35px
+         "RL   RB   ." 35px
+         "OL   OL   ."
+        /300px 200px 1fr;
+}
+
+h3 {grid-area: H3;}
+#AddLabel {
+        grid-area: AL;
+        justify-self: right;
+        }
+#btnAddItem {grid-area: AB;}
+#RemoveLabel {
+        grid-area: RL;
+        justify-self: right;
+        }
+#btnRemove {grid-area: RB;} 
+ol {grid-area: OL;}

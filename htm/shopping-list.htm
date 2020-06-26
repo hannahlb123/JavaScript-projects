@@ -4,10 +4,14 @@
         <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
         <script src="../js/shopping-list.js" defer></script>
         <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../layout-form.css">
     </head>
 
     <body>
-        <h1>Franken-site</h1>
+        <header>
+            <h1>Franken-site</h1>
+        </header>
+        
 
         <nav>   
             <a href="../index.htm"><span>Home</span></a>
@@ -22,23 +26,27 @@
             <a href="#"><span>Shopping List</span></a>
         </nav>
         
-        <h3>Shopping list</h3>
+        <main>
+             <h3>Shopping list</h3>
 
-        <label>
-            Add item:
-            <input id="txtAddItem" type="text">    
-        </label>
+             
+            <label id="AddLabel">
+                Add item:
+                <input id="txtAddItem" type="text" placeholder="Item">    
+            </label>
 
-        <button id="btnAddItem">Add</button> 
+            <button id="btnAddItem">Add</button> 
 
-        <label>
-            Remove item (enter the number of the item you would like to remove)
-            <input id="numRemove" type="number">
-        </label>
+            <label id="RemoveLabel">
+                Remove item:
+                <input id="numRemove" type="number" placeholder="Item number">
+            </label>
 
-        <button id="btnRemove">Remove</button>
+            <button id="btnRemove">Remove</button>
 
-        <ol id="lstShoppingList"></ol>
+            <ol id="lstShoppingList"></ol>
+        </main>
+       
 
     </body>
 </html>

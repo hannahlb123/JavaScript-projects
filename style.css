@@ -14,15 +14,16 @@ h1 {
 button {
     background-color: #93A8AC;
     border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
+    padding: 5px;
     font-size: 15px;
     color: #40464C;
+    border-bottom: 10px;
 }
 
 input {
     padding: 8px;
     border-radius: 5px;
+    align-content: right;
 }
 
 label {
@@ -71,4 +72,18 @@ button:hover {
 
 img {
     height: 200px;
+}
+
+input::placeholder {
+    color: #999999;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+
+ol {
+    font-size: 20px;
 }
